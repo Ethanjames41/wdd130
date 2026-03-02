@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1700" viewBox="0 0 1200 1700" role="img" aria-labelledby="title desc">
+  <title id="title">Trips page wireframe</title>
+  <desc id="desc">Wireframe showing a rafting trips page with header, hero, intro, three trip cards, comparison table, call to action, and footer.</desc>
+  <rect width="1200" height="1700" fill="#f6f6f6"/>
+  <rect x="40" y="40" width="1120" height="1620" rx="12" fill="#ffffff" stroke="#444" stroke-width="4"/>
+
+  <rect x="90" y="90" width="1020" height="110" fill="#d9d9d9" stroke="#222" stroke-width="3"/>
+  <rect x="120" y="115" width="120" height="60" fill="#f2f2f2" stroke="#222" stroke-width="2"/>
+  <text x="180" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#222">Logo</text>
+  <rect x="350" y="115" width="710" height="60" fill="#f2f2f2" stroke="#222" stroke-width="2"/>
+  <text x="705" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#222">Navigation: Home | Trips | Site Plan | Contact</text>
+
+  <rect x="90" y="240" width="1020" height="300" fill="#cfcfcf" stroke="#222" stroke-width="3"/>
+  <text x="600" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" fill="#222">Hero Image</text>
+  <rect x="340" y="390" width="520" height="100" fill="#f8f8f8" stroke="#222" stroke-width="2"/>
+  <text x="600" y="432" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Trips headline + summary text</text>
+  <rect x="500" y="448" width="200" height="26" fill="#d9d9d9" stroke="#222" stroke-width="2"/>
+  <text x="600" y="467" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#222">Primary CTA button</text>
+
+  <rect x="90" y="590" width="1020" height="150" fill="#ececec" stroke="#222" stroke-width="3"/>
+  <rect x="120" y="620" width="560" height="90" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <rect x="720" y="620" width="360" height="90" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="400" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Intro headline + paragraph</text>
+  <text x="900" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Highlights list</text>
+
+  <text x="600" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#222">Trip Cards</text>
+  <rect x="90" y="835" width="300" height="400" fill="#efefef" stroke="#222" stroke-width="3"/>
+  <rect x="450" y="835" width="300" height="400" fill="#efefef" stroke="#222" stroke-width="3"/>
+  <rect x="810" y="835" width="300" height="400" fill="#efefef" stroke="#222" stroke-width="3"/>
+
+  <rect x="115" y="860" width="250" height="145" fill="#d4d4d4" stroke="#222" stroke-width="2"/>
+  <rect x="475" y="860" width="250" height="145" fill="#d4d4d4" stroke="#222" stroke-width="2"/>
+  <rect x="835" y="860" width="250" height="145" fill="#d4d4d4" stroke="#222" stroke-width="2"/>
+  <text x="240" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Image</text>
+  <text x="600" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Image</text>
+  <text x="960" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Image</text>
+
+  <text x="240" y="1055" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Trip title</text>
+  <text x="600" y="1055" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Trip title</text>
+  <text x="960" y="1055" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Trip title</text>
+  <text x="240" y="1105" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#222">Description + bullets</text>
+  <text x="600" y="1105" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#222">Description + bullets</text>
+  <text x="960" y="1105" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#222">Description + bullets</text>
+
+  <rect x="90" y="1285" width="1020" height="180" fill="#ececec" stroke="#222" stroke-width="3"/>
+  <text x="600" y="1350" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#222">Comparison Table</text>
+  <rect x="150" y="1375" width="900" height="55" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="600" y="1410" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#222">Columns for trip, time, experience, focus</text>
+
+  <rect x="90" y="1510" width="1020" height="95" fill="#d9d9d9" stroke="#222" stroke-width="3"/>
+  <text x="600" y="1550" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#222">Call to action band with short message + button</text>
+  <rect x="520" y="1565" width="160" height="24" fill="#ffffff" stroke="#222" stroke-width="2"/>
+
+  <rect x="90" y="1625" width="1020" height="60" fill="#cfcfcf" stroke="#222" stroke-width="3"/>
+  <text x="600" y="1664" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#222">Footer with copyright, links, and social icons</text>
+</svg>
