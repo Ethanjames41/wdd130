@@ -552,6 +552,85 @@ footer p a:hover {
     margin-top: 80px;
 }
 
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5em;
+    display: none;
+    color: var(--primary-color);
+    z-index: 5;
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+.form-wrapper {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.contact-form-tutorial {
+    margin: 0 auto;
+    max-width: 430px;
+    padding: 1.5em;
+    border: 1px solid #c9c9c9;
+    border-radius: 1em;
+    background-color: #fdfdfd;
+}
+
+.contact-form-tutorial ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-form-tutorial li + li {
+    margin-top: 1em;
+}
+
+.contact-form-tutorial label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+.contact-form-tutorial input,
+.contact-form-tutorial textarea {
+    font: 1em 'Raleway', Arial, Helvetica, sans-serif;
+    width: calc(100% - 100px);
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 0.65em;
+}
+
+.contact-form-tutorial input:focus,
+.contact-form-tutorial textarea:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+}
+
+.contact-form-tutorial textarea {
+    min-height: 8em;
+    resize: vertical;
+}
+
+.contact-form-tutorial .button {
+    padding-left: 90px;
+}
+
+.contact-form-tutorial .book {
+    margin-top: 0;
+    border: 0;
+    cursor: pointer;
+}
+
 /* ===============================
    RESPONSIVE DESIGN
 ================================ */
@@ -645,6 +724,26 @@ footer p a:hover {
     .contact-card,
     .contact-form-section {
         padding: 25px 20px;
+    }
+
+    .contact-form-tutorial {
+        padding: 1.25em;
+    }
+
+    .contact-form-tutorial label {
+        display: block;
+        width: auto;
+        margin-bottom: 0.4em;
+        text-align: left;
+    }
+
+    .contact-form-tutorial input,
+    .contact-form-tutorial textarea {
+        width: 100%;
+    }
+
+    .contact-form-tutorial .button {
+        padding-left: 0;
     }
 
     footer {
