@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f3ee;
+  color: #1f1f1f;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+.content h1 {
+  margin-bottom: 12px;
+}
+
+.content > p {
+  max-width: 70ch;
+  line-height: 1.5;
+}
+
+.poem {
+  width: 60%;
+  margin: 32px auto 0;
+}
+
+.poem section {
+  width: 50%;
+  margin-bottom: 12px;
+  padding: 12px 16px;
+  border: 1px solid #444;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.poem h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.poem p {
+  margin: 8px 0;
+}
+
+.block2,
+.block4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block3 {
+  margin-left: auto;
+}
+
+.block1 p:nth-of-type(1),
+.block2 p:nth-of-type(1),
+.block3 p:nth-of-type(1),
+.block4 p:nth-of-type(3),
+.block4 p:nth-of-type(4) {
+  text-align: left;
+}
+
+.block1 p:nth-of-type(2),
+.block2 p:nth-of-type(2),
+.block3 p:nth-of-type(2),
+.block4 p:nth-of-type(2) {
+  text-align: center;
+}
+
+.block1 p:nth-of-type(3),
+.block2 p:nth-of-type(3),
+.block3 p:nth-of-type(3),
+.block4 p:nth-of-type(1) {
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .poem {
+    width: 100%;
+  }
+
+  .poem section {
+    width: 100%;
+  }
+}
