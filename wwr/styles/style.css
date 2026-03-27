@@ -378,6 +378,122 @@ footer p a:hover {
     gap: 30px;
 }
 
+.trip-details {
+    display: grid;
+    gap: 30px;
+}
+
+.trip-details-copy {
+    max-width: 760px;
+    text-align: left;
+}
+
+.trip-details-copy h2 {
+    margin: 0.2em 0;
+}
+
+.trip-details-copy p:last-child {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.flip-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.flip-card {
+    background-color: transparent;
+    height: 360px;
+    perspective: 1000px;
+    cursor: pointer;
+    outline: none;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 10px #2f2f2f;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.flip-card-front {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.55);
+}
+
+.flip-card-front-copy {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-content: center;
+    gap: 12px;
+    padding: 24px;
+}
+
+.flip-card-front-copy .eyebrow {
+    color: #ffffff;
+}
+
+.flip-card-front-copy h3,
+.flip-card-back h3 {
+    margin: 0;
+    color: var(--accent2-color);
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
+    font-size: 1.05em;
+    line-height: 1.35;
+}
+
+.flip-card-back {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    transform: rotateY(180deg);
+    padding: 32px 26px;
+    display: grid;
+    align-content: center;
+    gap: 16px;
+    text-align: left;
+}
+
+.flip-card-back p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.flip-card:focus-visible {
+    outline: 3px solid var(--accent2-color);
+    outline-offset: 6px;
+}
+
 .trip-card {
     background-color: #ffffff;
     box-shadow: 5px 5px 10px #2f2f2f;
@@ -710,6 +826,7 @@ footer p a:hover {
 
     .trip-intro,
     .trip-list,
+    .flip-card-grid,
     .contact-intro,
     .contact-grid {
         grid-template-columns: 1fr;
@@ -728,6 +845,11 @@ footer p a:hover {
 
     .contact-form-tutorial {
         padding: 1.25em;
+    }
+
+    .flip-card,
+    .flip-card-inner {
+        height: 320px;
     }
 
     .contact-form-tutorial label {
